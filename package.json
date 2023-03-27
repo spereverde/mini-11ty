@@ -8,7 +8,9 @@
   "version": "0.0.1",
   "description": "minimal setup for testing including scss from kuleuven bootstrap theme",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:eleventy": "npx @11ty/eleventy",
